@@ -42,5 +42,10 @@
         android:hint="Type here…"
         android:inputType="textMultiLine|textCapSentences"
         android:padding="12dp"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:scrollbars="vertical"
+        android:isScrollContainer="true"
+        android:overScrollMode="always"
+        android:fadeScrollbars="false"
+        android:nestedScrollingEnabled="true"/>
 </LinearLayout>
